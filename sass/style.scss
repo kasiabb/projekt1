@@ -94,6 +94,9 @@ nav .menu {
   margin: auto;
   max-width: 70%;
 }
+.splash .btn-one i {
+  display: inline-block;
+}
 
 .btn {
   display: block;
@@ -134,7 +137,7 @@ nav .menu {
   border-radius: 50%;
   border: 3px solid;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 12px;
 }
 .services .row {
   padding-top: 40px;
@@ -231,7 +234,7 @@ img {
   text-align: center;
 }
 
-.header .container i {
+.header .container .btn-group {
   display: none;
 }
 nav ul li {
@@ -245,7 +248,7 @@ nav ul li {
 }
 
 @media (max-width: 768px) {
-  .header .container i {
+  .header .container .btn-group {
     display: block;
     position: absolute;
     top: 20px;
@@ -259,13 +262,13 @@ nav ul li {
   .logo a {
     position: absolute;
     top: 10px;
-    font-size: 10px;
+    font-size: 28px;
   }
   .page-title {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   .page-subtitle {
-    font-size: 15px;
+    font-size: 25px;
   }
 }
